@@ -6,17 +6,20 @@
   <meta name="renderer" content="webkit">
   <meta http-equiv="X-UA-Compatible" content="IE=edge" >
   <link rel="dns-prefetch" href="http://yoursite.com">
-  <title>HelloWorld | Hexo</title>
+  <title>HelloWorld | 会飞的哈士奇</title>
   <meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1">
-  <meta property="og:type" content="article">
+  <meta name="description" content="1.跳转到应用评价页12NSString *urlStr = [NSString stringWithFormat:@&amp;quot;itms-apps://itunes.apple.com/WebObjects/MZStore.woa/wa/viewContentsUserReviews?type=Purple+Software&amp;amp;id=%@&amp;amp;pageNumber=0&amp;amp;sort">
+<meta property="og:type" content="article">
 <meta property="og:title" content="HelloWorld">
 <meta property="og:url" content="http://yoursite.com/2018/01/25/HelloWorld/index.html">
-<meta property="og:site_name" content="Hexo">
-<meta property="og:updated_time" content="2018-01-25T02:52:59.389Z">
+<meta property="og:site_name" content="会飞的哈士奇">
+<meta property="og:description" content="1.跳转到应用评价页12NSString *urlStr = [NSString stringWithFormat:@&amp;quot;itms-apps://itunes.apple.com/WebObjects/MZStore.woa/wa/viewContentsUserReviews?type=Purple+Software&amp;amp;id=%@&amp;amp;pageNumber=0&amp;amp;sort">
+<meta property="og:updated_time" content="2018-01-25T03:17:16.926Z">
 <meta name="twitter:card" content="summary">
 <meta name="twitter:title" content="HelloWorld">
+<meta name="twitter:description" content="1.跳转到应用评价页12NSString *urlStr = [NSString stringWithFormat:@&amp;quot;itms-apps://itunes.apple.com/WebObjects/MZStore.woa/wa/viewContentsUserReviews?type=Purple+Software&amp;amp;id=%@&amp;amp;pageNumber=0&amp;amp;sort">
   
-    <link rel="alternative" href="/atom.xml" title="Hexo" type="application/atom+xml">
+    <link rel="alternative" href="/atom.xml" title="会飞的哈士奇" type="application/atom+xml">
   
   
     <link rel="icon" href="/favicon.png">
@@ -46,8 +49,10 @@
 			<img src="" class="js-avatar">
 		</a>
 		<hgroup>
-		  <h1 class="header-author"><a href="/">John Doe</a></h1>
+		  <h1 class="header-author"><a href="/">会飞的哈士奇</a></h1>
 		</hgroup>
+		
+		<p class="header-subtitle">踏踏实实用代码改变世界</p>
 		
 
 		<nav class="header-menu">
@@ -104,8 +109,10 @@
 				<img src="" class="js-avatar">
 			</div>
 			<hgroup>
-			  <h1 class="header-author js-header-author">John Doe</h1>
+			  <h1 class="header-author js-header-author">会飞的哈士奇</h1>
 			</hgroup>
+			
+			<p class="header-subtitle"><i class="icon icon-quo-left"></i>踏踏实实用代码改变世界<i class="icon icon-quo-right"></i></p>
 			
 			
 			
@@ -170,7 +177,9 @@
     
     <div class="article-entry" itemprop="articleBody">
       
-        
+        <h1 id="1-跳转到应用评价页"><a href="#1-跳转到应用评价页" class="headerlink" title="1.跳转到应用评价页"></a>1.跳转到应用评价页</h1><figure class="highlight plain"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br></pre></td><td class="code"><pre><span class="line">NSString *urlStr = [NSString stringWithFormat:@&quot;itms-apps://itunes.apple.com/WebObjects/MZStore.woa/wa/viewContentsUserReviews?type=Purple+Software&amp;id=%@&amp;pageNumber=0&amp;sortOrdering=2&amp;mt=8&quot;, APPID];</span><br><span class="line">[[UIApplication sharedApplication] openURL:[NSURL URLWithString:urlStr]];</span><br></pre></td></tr></table></figure>
+<p>#2.跳转到应用详情页<br><figure class="highlight plain"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br></pre></td><td class="code"><pre><span class="line">NSString *urlStr = [NSString stringWithFormat:@&quot;itms-apps://itunes.apple.com/app/id%@&quot;, APPID];</span><br><span class="line">[[UIApplication sharedApplication] openURL:[NSURL URLWithString:urlStr]];</span><br></pre></td></tr></table></figure></p>
+
       
 
       
@@ -308,7 +317,7 @@
   <div class="outer">
     <div id="footer-info">
     	<div class="footer-left">
-    		&copy; 2018 John Doe
+    		&copy; 2018 会飞的哈士奇
     	</div>
       	<div class="footer-right">
       		<a href="http://hexo.io/" target="_blank">Hexo</a>  Theme <a href="https://github.com/litten/hexo-theme-yilia" target="_blank">Yilia</a> by Litten
